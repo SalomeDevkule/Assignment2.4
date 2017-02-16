@@ -1,0 +1,14 @@
+These days, Hadoop has become a go-to solution for big data in many different implementations.
+For commercial businesses, Hadoop can be an analytics platform to drive business decisions.
+Many of these consumers are analysts, business intelligence, industrial engineers, etc. 
+Hadoop is slightly different for tech companies. 
+Companies like LinkedIn, Netflix, etc also use it to store and process data in the terabytes/petabytes range. 
+However, this data is often then re-consumed by other processes to build software features, such as Netflix’s recommendation system, or LinkedIn’s “People you may know” feature. From my experience, the two most popular use cases are for Business Analytics (tracking historical data to determine customer behavior to improve business processes), and as a distributed engine to process large amounts of data, often for tech companies (i.e. ingesting data from dozens of products in real-time, then using that to feed other software features). There’s no reason to limit Hadoop to these two cases, as it has found adoption in things like modelling stock markets, parallel computing, distributed file storage, and so much more. This gave rise to a lot of complementary projects in the ecosystem like Spark, HBase, Kafka/Storm, etc.
+As for Amazon, Facebook, Google, etc., they’re not exactly using Hadoop like most of the world. 
+Although there are many processes that run on MapReduce/HDFS inside those organizations, Amazon/FB/Google also has a lot of proprietary and cutting-edge technologies that has supplemented or replaced many components of Hadoop. For instance, Facebook uses Presto/RocksDB, Google has GFS/Beam. The idea is still the same: within your products, track everything, so that you can determine user behavior. For someone like Google/Facebook/Amazon, they know what pages you like to view, what products you like to by, what people you like to follow. All of this is critical to building products that you as a consumer like to use. Google and Facebook also offer Hadoop or Hadoop-alternatives as an infrastructure-as-a-service model (AWS, Google Data Platform), but that’s slightly unrelated to the question you’re asking, I think.
+
+In layman's term hadoop has 2 compnents:
+1)HDFS for storage 
+2)Map-Reduce for processing
+
+However there are several other layers in between like pig or hive.

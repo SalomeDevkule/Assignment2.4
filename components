@@ -1,0 +1,15 @@
+Hadoop framework has 2 compnents:\
+1)HDFS
+2)Map Reduce
+
+1)HDFS
+Responsible for storage
+Has Master and Slave Daemons namely:
+NameNode-Master
+DataNode-Slave
+Secondary NameNode-Backup
+
+2)MapReduce
+Responsible for processing
+Resource Manager-Master
+Load Manager-Slave
